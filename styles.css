@@ -36,3 +36,19 @@ input {
 img {
 	max-width: 300px;
 }
+
+.buttons {
+	height: 5vh;
+	width: 25vw;
+	background-color: orange;
+	color: navy;
+	border-radius: 50px;
+}
+
+.section-main {
+	display: flex;
+}
+
+#favorites {
+	flex-direction: col;
+}

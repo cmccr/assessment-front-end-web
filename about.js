@@ -5,10 +5,14 @@ console.log("hello world");
 function handleSubmit(evt) {
 	evt.preventDefault();
 	
-	console.log('form submit');
+	alert('form submitted');
 }
+
+let img = document.querySelector('img').addEventListener('mouseover', () => {
+}
+
 
 
 let form = document.querySelector('form#contact');
 
-form.addEventListener('submit', handleSubmit);
+form.addEventListener('submit', alert('submitted sucessfully'));
