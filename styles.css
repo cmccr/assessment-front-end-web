@@ -49,6 +49,18 @@ img {
 	display: flex;
 }
 
-#favorites {
+.favorites {
 	flex-direction: col;
+}
+
+#color {
+	color: yellow;
+}
+
+.place {
+	color: yellow;
+}
+
+.ritual {
+	color: yellow;
 }

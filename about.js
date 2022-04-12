@@ -9,7 +9,8 @@ function handleSubmit(evt) {
 }
 
 let img = document.querySelector('img').addEventListener('mouseover', () => {
-}
+	alert("You're Smart")
+})
 
 
 
